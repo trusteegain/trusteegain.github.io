@@ -168,7 +168,7 @@ p{
 nav .fa{
     display: none;
 }
-@media screen and (max-width:900px){
+@media screen and (min-width:300px){
      
     .text-box h1{
     
@@ -187,9 +187,10 @@ nav .fa{
         position: absolute;
         width: 200px;
         top: 0;
-        right: -200px;
+        right: 0px;
         background: red;
         z-index: 3;
+        visibility: hidden;
         height: 100vh;
         text-align: left;
         transition: 1s;
