@@ -2,8 +2,8 @@
 /* toggle menubar*/
 
  function showMenu(){
-     var prince = document.getElementById("navLinks").style.visibility = "visible";
+     var prince = document.getElementById("navLinks").style.width = "50%";
  }
  function hideMenu(){
-     var prince = document.getElementById("navLinks").style.visibility ="hidden";
+     var prince = document.getElementById("navLinks").style.width ="0%";
  }

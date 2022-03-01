@@ -185,16 +185,16 @@ nav .fa{
     
     .nav-links{
         position: absolute;
-        width: 200px;
+        overflow: hidden;
+        width: 0%;
         top: 0;
         right: 0px;
         background: red;
         z-index: 3;
-        visibility: hidden;
         height: 100vh;
         text-align: left;
-        transition: 1s;
-        overflow-x: hidden;
+        transition: 2s;
+    
     }
     .nav-links ul li {
         list-style: none;
