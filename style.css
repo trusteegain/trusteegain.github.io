@@ -16,6 +16,7 @@
     background-position: center;
     background-size: cover;
     position: relative;
+    overflow: hidden;
 }    
 nav{
     display: flex;
@@ -168,7 +169,7 @@ p{
 nav .fa{
     display: none;
 }
-@media screen and (max-width:700px){
+@media screen and (max-width:900px){
      
     .text-box h1{
     
@@ -185,16 +186,16 @@ nav .fa{
     
     .nav-links{
         position: absolute;
-        overflow: hidden;
-        width: 0%;
+        width: 200px;
         top: 0;
-        right: 0px;
+        right: -200px;
         background: red;
         z-index: 3;
         height: 100vh;
         text-align: left;
-        transition: 2s;
-    
+        transition: 1s;
+        overflow:hidden;
+
     }
     .nav-links ul li {
         list-style: none;
@@ -468,6 +469,7 @@ nav .fa{
     padding: 30px 0;
 }
 .footer h4{
+    color: #777;
     margin-bottom: 25px;
     margin-top: 20px;
     font-weight: 700;
@@ -486,3 +488,91 @@ nav .fa{
     color: goldenrod;
     
 }
+
+/*---NEWs SECTION-----*/
+ 
+.news-header{
+    width: 100%;
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(image/download.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}    
+
+ .news{
+    color: #fff;
+    margin-top:  10px;
+    padding: 10px;
+    text-align: center;
+    line-height: 50vh;
+    font-size: 28px;
+}
+.news-p{
+    color: #fff;
+    margin-top:-12%;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+    
+
+.later-news{
+    width: 80%;
+    background: rgb(202, 198, 198);
+    color: red;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-news p{
+    color:rgb(119, 106, 106);
+    margin: 10px;
+    padding: 10px;
+}
+.footer-news{
+        width: 100%;
+        text-align: center;
+        padding: 30px 0;
+    }
+    .footer h4{
+        color: #777;
+        margin-bottom: 25px;
+        margin-top: 20px;
+        font-weight: 700;
+    }
+     .fa-heart{
+        color: goldenrod;
+        
+    }
+    .icon  .fa{
+        color: rgb(60, 32, 218);
+        padding: 0 15px;
+        
+    }
+    
+    .icon p{
+        color: goldenrod;
+        
+    }
+
+@media screen and (max-width:700px){
+    .news{
+        color: #fff;
+        margin-top:  10px;
+        padding: 10px;
+        text-align: center;
+        line-height: 80vh;
+        font-size: 28px;
+    }
+    .news-p{
+        color: #fff;
+        margin-top:-48%;
+        padding: 10px;
+        text-align: center;
+        font-size: 12px;
+    }
+}
+
