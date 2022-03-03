@@ -594,3 +594,69 @@ nav .fa{
     }
 }
 
+/* this is the course section*/
+
+.main-course{
+    width: 80%;
+    padding-top: 40px;
+    min-height: 100px;
+    margin: 10px auto;
+    position: relative;
+}
+
+.main-course h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.main-course h1::after{
+    content: "";
+    width:0%;
+    height: 5px;
+    background: red;
+    display: block;
+    margin:auto;
+    transition: 0.7s;
+}
+
+.main-course h1:hover::after{
+  content: "";
+  width: 50%;
+  height: 5px;
+  
+}
+.main-course h1:hover{
+    color: blue;
+  }
+
+  .col{
+      display: flex;
+      flex-basis: 32%;
+      margin: 10px;
+      justify-content: space-between;
+      
+  }
+
+  .coll{
+      margin: 10px;
+      background-color: #777;
+  }
+  .coll h2{
+    margin: 10px;
+    text-align: left;
+    font-family:cursive;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.coll p{
+    text-align: center;
+    font-family:fantasy;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: rgb(12, 12, 11);
+}
+.coll img{
+    width: 80%;
+    padding: 0 auto;
+    align-items: center;
+}
