@@ -9,8 +9,8 @@
  }
 
  function textBox(){
-   // alert("we are so sorry at this moment we can't diplay any news");
-    //alert("you can navigate around the website");
+   alert("we are so sorry at this moment we can't diplay any news");
+    alert("you can navigate around the website");
  }
 
   
