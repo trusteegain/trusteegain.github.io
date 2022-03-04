@@ -630,8 +630,8 @@ nav .fa{
   }
 
   .col{
+      width: 100%;
       display: flex;
-      flex-basis: 32%;
       margin: 10px;
       justify-content: space-between;
       
@@ -640,6 +640,7 @@ nav .fa{
   .coll{
       margin: 10px;
       background-color: #777;
+      width: 100%;
   }
   .coll h2{
     margin: 10px;
@@ -657,6 +658,454 @@ nav .fa{
 }
 .coll img{
     width: 80%;
-    padding: 0 auto;
+    margin-left:9.5%;
     align-items: center;
+}
+.course-button{
+    width: 70%;
+    height: 30px;
+    align-items: center;
+    background-color: rgb(121, 36, 36);
+    margin-bottom: 10px;
+    margin-left: 15%;
+    padding: 0 10px;
+    color: white;
+}
+
+#course-ul{
+    position: relative;
+    display:none;
+    margin-left:5%;
+    margin-bottom: 5%;
+    transition: 2s;
+}
+#course-ul li a{
+    color: rgb(3, 3, 3);
+    font-weight: 100px;
+}
+#course-ul li a:hover{
+    color: rgb(218, 15, 15);
+    font-weight: 100px;
+}
+#course-ul .fa{
+    color: #fff;
+    background-color: rgb(153, 8, 8);
+    width: 20px;
+    align-self: center;
+    border-radius: 50%;
+    padding-left: 2.5%;
+    margin-left: 80%;
+}
+#course-ul .fa:hover{
+    color: #fff;
+    background-color: rgb(6, 59, 30);
+   
+}
+
+
+
+#course-ul1{
+    position: relative;
+    display:none;
+    margin-left:5%;
+    margin-bottom: 5%;
+    transition: 2s;
+}
+#course-ul1 li a{
+    color: rgb(3, 3, 3);
+    font-weight: 100px;
+}
+#course-ul1 li a:hover{
+    color: rgb(218, 15, 15);
+    font-weight: 100px;
+}
+#course-ul1 .fa{
+    color: #fff;
+    background-color: rgb(153, 8, 8);
+    width: 20px;
+    align-self: center;
+    border-radius: 50%;
+    padding-left: 2.5%;
+    margin-left: 80%;
+}
+#course-ul1 .fa:hover{
+    color: #fff;
+    background-color: rgb(6, 59, 30);
+   
+}
+
+
+#course-ul2{
+    position: relative;
+    display:none;
+    margin-left:5%;
+    margin-bottom: 5%;
+    transition: 2s;
+}
+#course-ul2 li a{
+    color: rgb(3, 3, 3);
+    font-weight: 100px;
+}
+#course-ul2 li a:hover{
+    color: rgb(218, 15, 15);
+    font-weight: 100px;
+}
+#course-ul2 .fa{
+    color: #fff;
+    background-color: rgb(153, 8, 8);
+    width: 20px;
+    align-self: center;
+    border-radius: 50%;
+    padding-left: 2.5%;
+    margin-left: 80%;
+}
+#course-ul2 .fa:hover{
+    color: #fff;
+    background-color: rgb(6, 59, 30);
+   
+}
+
+
+
+#course-ul3{
+    position: relative;
+    display:none;
+    margin-left:5%;
+    margin-bottom: 5%;
+    transition: 2s;
+}
+#course-ul3 li a{
+    color: rgb(3, 3, 3);
+    font-weight: 100px;
+}
+#course-ul3 li a:hover{
+    color: rgb(218, 15, 15);
+    font-weight: 100px;
+}
+#course-ul3 .fa{
+    color: #fff;
+    background-color: rgb(153, 8, 8);
+    width: 20px;
+    align-self: center;
+    border-radius: 50%;
+    padding-left: 2.5%;
+    margin-left: 80%;
+}
+#course-ul3 .fa:hover{
+    color: #fff;
+    background-color: rgb(6, 59, 30);
+   
+}
+
+
+#course-ul4{
+    position: relative;
+    display:none;
+    margin-left:5%;
+    margin-bottom: 5%;
+    transition: 2s;
+}
+#course-ul4 li a{
+    color: rgb(3, 3, 3);
+    font-weight: 100px;
+}
+#course-ul4 li a:hover{
+    color: rgb(218, 15, 15);
+    font-weight: 100px;
+}
+#course-ul4 .fa{
+    color: #fff;
+    background-color: rgb(153, 8, 8);
+    width: 20px;
+    align-self: center;
+    border-radius: 50%;
+    padding-left: 2.5%;
+    margin-left: 80%;
+}
+#course-ul4 .fa:hover{
+    color: #fff;
+    background-color: rgb(6, 59, 30);
+   
+}
+
+
+#course-ul5{
+    position: relative;
+    display:none;
+    margin-left:5%;
+    margin-bottom: 5%;
+    transition: 2s;
+}
+#course-ul5 li a{
+    color: rgb(3, 3, 3);
+    font-weight: 100px;
+}
+#course-ul5 li a:hover{
+    color: rgb(218, 15, 15);
+    font-weight: 100px;
+}
+#course-ul5 .fa{
+    color: #fff;
+    background-color: rgb(153, 8, 8);
+    width: 20px;
+    align-self: center;
+    border-radius: 50%;
+    padding-left: 2.5%;
+    margin-left: 80%;
+}
+#course-ul5 .fa:hover{
+    color: #fff;
+    background-color: rgb(6, 59, 30);
+   
+}
+
+
+#course-ul6{
+    position: relative;
+    display:none;
+    margin-left:5%;
+    margin-bottom: 5%;
+    transition: 2s;
+}
+#course-ul6 li a{
+    color: rgb(3, 3, 3);
+    font-weight: 100px;
+}
+#course-ul6 li a:hover{
+    color: rgb(218, 15, 15);
+    font-weight: 100px;
+}
+#course-ul6 .fa{
+    color: #fff;
+    background-color: rgb(153, 8, 8);
+    width: 20px;
+    align-self: center;
+    border-radius: 50%;
+    padding-left: 2.5%;
+    margin-left: 80%;
+}
+#course-ul6 .fa:hover{
+    color: #fff;
+    background-color: rgb(6, 59, 30);
+   
+}
+
+
+#course-ul7{
+    position: relative;
+    display:none;
+    margin-left:5%;
+    margin-bottom: 5%;
+    transition: 2s;
+}
+#course-ul7 li a{
+    color: rgb(3, 3, 3);
+    font-weight: 100px;
+}
+#course-ul7 li a:hover{
+    color: rgb(218, 15, 15);
+    font-weight: 100px;
+}
+#course-ul7 .fa{
+    color: #fff;
+    background-color: rgb(153, 8, 8);
+    width: 20px;
+    align-self: center;
+    border-radius: 50%;
+    padding-left: 2.5%;
+    margin-left: 80%;
+}
+#course-ul7 .fa:hover{
+    color: #fff;
+    background-color: rgb(6, 59, 30);
+   
+}
+
+
+#course-ul8{
+    position: relative;
+    display:none;
+    margin-left:5%;
+    margin-bottom: 5%;
+    transition: 2s;
+}
+#course-ul8 li a{
+    color: rgb(3, 3, 3);
+    font-weight: 100px;
+}
+#course-ul8 li a:hover{
+    color: rgb(218, 15, 15);
+    font-weight: 100px;
+}
+#course-ul8 .fa{
+    color: #fff;
+    background-color: rgb(153, 8, 8);
+    width: 20px;
+    align-self: center;
+    border-radius: 50%;
+    padding-left: 2.5%;
+    margin-left: 80%;
+}
+#course-ul8 .fa:hover{
+    color: #fff;
+    background-color: rgb(6, 59, 30);
+   
+}
+ 
+
+
+        /*media queries for mobile view*/
+
+
+@media screen and (max-width:700px) {
+    .col{
+        width: 100%;
+        display:block;
+    }   
+
+    .coll{
+        margin-bottom: 30px;
+    }
+
+    #course-ul{
+        margin-left:5%;
+        margin-bottom: 10%;
+        transition: 2s;
+        padding-bottom: 20px;
+    }
+    #course-ul li a{
+        color: rgb(3, 3, 3);
+        font-weight: 100px;
+    }
+
+    #course-ul li{
+    padding: 5px;
+    }
+    
+    #course-ul1{
+        margin-left:5%;
+        margin-bottom: 10%;
+        transition: 2s;
+        padding-bottom: 20px;
+    }
+    #course-ul1 li a{
+        color: rgb(3, 3, 3);
+        font-weight: 100px;
+    }
+
+    #course-ul1 li{
+    padding: 5px;
+    }
+    
+    #course-ul2{
+        margin-left:5%;
+        margin-bottom: 10%;
+        transition: 2s;
+        padding-bottom: 20px;
+    }
+    #course-ul2 li a{
+        color: rgb(3, 3, 3);
+        font-weight: 100px;
+    }
+
+    #course-ul2 li{
+    padding: 5px;
+    }
+    
+    #course-ul3{
+        margin-left:5%;
+        margin-bottom: 10%;
+        transition: 2s;
+        padding-bottom: 20px;
+    }
+    #course-ul3 li a{
+        color: rgb(3, 3, 3);
+        font-weight: 100px;
+    }
+
+    #course-ul3 li{
+    padding: 5px;
+    }
+    
+
+#course-ul4{
+    margin-left:5%;
+    margin-bottom: 10%;
+    transition: 2s;
+    padding-bottom: 20px;
+}
+#course-ul4 li a{
+    color: rgb(3, 3, 3);
+    font-weight: 100px;
+}
+
+#course-ul4 li{
+padding: 5px;
+}
+
+#course-ul5{
+    margin-left:5%;
+    margin-bottom: 10%;
+    transition: 2s;
+    padding-bottom: 20px;
+}
+#course-ul5 li a{
+    color: rgb(3, 3, 3);
+    font-weight: 100px;
+}
+
+#course-ul5 li{
+padding: 5px;
+}
+
+#course-ul6{
+    margin-left:5%;
+    margin-bottom: 10%;
+    transition: 2s;
+    padding-bottom: 20px;
+}
+#course-ul6 li a{
+    color: rgb(3, 3, 3);
+    font-weight: 100px;
+}
+
+#course-ul6 li{
+padding: 5px;
+}
+
+#course-ul7{
+    margin-left:5%;
+    margin-bottom: 10%;
+    transition: 2s;
+    padding-bottom: 20px;
+}
+#course-ul7 li a{
+    color: rgb(3, 3, 3);
+    font-weight: 100px;
+}
+
+#course-ul7 li{
+padding: 5px;
+}
+
+#course-ul8{
+    margin-left:5%;
+    margin-bottom: 10%;
+    transition: 2s;
+    padding-bottom: 20px;
+}
+#course-ul8 li a{
+    color: rgb(3, 3, 3);
+    font-weight: 100px;
+}
+
+#course-ul8 li{
+padding: 5px;
+}
+
+
+
+
+
+
 }
