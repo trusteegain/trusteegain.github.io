@@ -29,12 +29,14 @@
     overflow: hidden;
 }    
 nav{
+    position: fixed;
     top: 0;
     display: flex;
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
     width: 90%;
+   background-image:linear-gradient(rgb(45, 77, 105, 1),rgba(53, 22, 78, 1),rgb(62, 10, 105));
     z-index: 3;
 }
 
@@ -202,8 +204,8 @@ nav .fa{
         width: 200px;
         top: 0;
         right: -200px;
-        background: red;
-        z-index: 3;
+        background-image:linear-gradient(rgba(39, 5, 83, 1),rgba(53, 22, 78, 1),rgba(23, 6, 37, 1));
+        z-index: 5;
         height: 100vh;
         text-align: left;
         transition: 1s;
@@ -951,7 +953,29 @@ nav .fa{
     background-color: rgb(6, 59, 30);
    
 }
+
+
+
+
+/*MOVING TEXT*/
  
+.dynamic-txts li span::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    background: red;
+    border-left: 2px solid blue;
+    animation: typing 1.5s steps(10) infinite;
+}
+
+@keyframes typing{
+    100%{
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
 
 
         /*media queries for mobile view*/
@@ -1108,4 +1132,21 @@ padding: 5px;
 
 
 
+}
+
+/* ARTICLE SECTION IN MICROBIOLOGY RIVERS STATE UNIVERSITY*/
+
+.ngozi{
+    margin-top: 10%;
+    width: 80%;
+    height: auto;
+    border: 2px solid blueviolet;
+    margin-left:auto;
+    margin-right: auto;
+     
+}
+.ngozi p{
+    text-align: center;
+    color: black;
+    text-transform: capitalize;
 }
