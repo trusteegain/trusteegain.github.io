@@ -1,13 +1,13 @@
 *{
     padding: 0;
     margin: 0;
-    list-style: none;
     text-decoration: none;
 
 }
-  /*body{
-    background-color: darkgoldenrod;
-}*/
+  body{
+    background-color: rgb(167, 165, 160);
+
+}
 .move-up{
     width: 100%;
     height: 30px;
@@ -31,6 +31,7 @@
 nav{
     position: fixed;
     top: 0;
+    height: 20px;
     display: flex;
     padding: 2% 6%;
     justify-content: space-between;
@@ -69,9 +70,7 @@ nav h1 a:hover::after{
     text-align: right;
     
 }
-.nav-links ul{
-     
-}
+
 .nav-links ul li {
     list-style: none;
     padding: 8px 12px;
@@ -408,10 +407,13 @@ nav .fa{
       margin: auto;
       padding-top: 100px;
       text-align: center;
+
   }
+  
 
   .testimonial-col{
       flex-basis: 44%;
+      margin-left: 5%;
       margin-bottom: 5%;
       text-align: left;
       border-radius: 10px;
@@ -478,18 +480,27 @@ nav .fa{
 
 
 /*FOOTER*/
-.footer{
-    width: 100%;
+footer{
+    margin-left: -13%;
+    margin-top: 10px;
+    width: 125%;
     text-align: center;
     padding: 30px 0;
+    background-color: rgb(22, 20, 20);
+    background: black;
 }
-.footer h4{
+footer h4{
     color: #777;
     margin-bottom: 25px;
     margin-top: 20px;
     font-weight: 700;
 }
- .fa-heart{
+
+footer p{
+    margin: 0 5%;
+}
+
+.fa-heart{
     color: goldenrod;
     
 }
@@ -499,10 +510,52 @@ nav .fa{
     
 }
 
+
 .icon p{
     color: goldenrod;
     
 }
+
+
+.virus-footer{
+    margin-top: 10px;
+    width: 100%;
+    margin-left: auto;
+    text-align: center;
+    padding: 30px 0;
+    background-color: rgb(22, 20, 20);
+    background: black;
+}
+footer h4{
+    color: #777;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+footer p{
+    margin: 0 5%;
+    padding-bottom: 5%;
+}
+
+.fa-heart{
+    color: goldenrod;
+    
+}
+.icon  .fa{
+    color: rgb(60, 32, 218);
+    padding: 0 15px;
+    
+}
+
+
+.icon p{
+    color: goldenrod;
+    
+}
+
+
+
 
 /*---NEWs SECTION-----*/
  
@@ -547,37 +600,7 @@ nav .fa{
     background-color: burlywood;
 }
 
-.footer-news p{
-    color:rgb(119, 106, 106);
-    margin: 10px;
-    padding: 10px;
-}
-.footer-news{
-        width: 100%;
-        text-align: center;
-        padding: 30px 0;
-    }
-    .footer h4{
-        color: #777;
-        margin-bottom: 25px;
-        margin-top: 20px;
-        font-weight: 700;
-    }
-     .fa-heart{
-        color: goldenrod;
-        
-    }
-    .icon  .fa{
-        color: rgb(60, 32, 218);
-        padding: 0 15px;
-        
-    }
-    
-    .icon p{
-        color: goldenrod;
-        
-    }
-
+ 
 @media screen and (max-width:700px){
     .news{
         color: #fff;
@@ -645,6 +668,8 @@ nav .fa{
       width: 100%;
   }
   .coll h2{
+    padding-top: 10px;
+    padding-left: 30px;
     margin: 10px;
     text-align: left;
     font-family:cursive;
@@ -954,28 +979,9 @@ nav .fa{
    
 }
 
-
-
-
-/*MOVING TEXT*/
  
-.dynamic-txts li span::after{
-    content: "";
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    left: 0;
-    background: red;
-    border-left: 2px solid blue;
-    animation: typing 1.5s steps(10) infinite;
-}
 
-@keyframes typing{
-    100%{
-        left: 100%;
-        margin: 0 -35px 0 35px;
-    }
-}
+
 
 
         /*media queries for mobile view*/
@@ -984,7 +990,8 @@ nav .fa{
 @media screen and (max-width:700px) {
     .col{
         width: 100%;
-        display:block;
+        display: grid;
+        margin: 0 auto;
     }   
 
     .coll{
@@ -1138,15 +1145,57 @@ padding: 5px;
 
 .ngozi{
     margin-top: 10%;
-    width: 80%;
-    height: auto;
+    max-width: 80%;
+    max-height:auto;
     border: 2px solid blueviolet;
     margin-left:auto;
     margin-right: auto;
-     
+    display: block;
+    background-color: #777;
 }
 .ngozi p{
     text-align: center;
     color: black;
     text-transform: capitalize;
 }
+@media screen and (max-width:700px) {
+    .ngozi{
+        margin-top: 15%;
+        width: 80%;
+        height: auto;
+        border: 2px solid blueviolet;
+        margin-left:auto;
+        margin-right: auto;
+         
+    }
+}
+
+
+/*    VIRUS SECTION    */
+  .virus-section{
+      width: 80%;
+      padding-top: 80px;
+      margin-right: auto;
+      margin-top: 2%;
+      margin-left: auto;
+  }
+  .virus-section h2{
+      text-align: center;
+      padding-bottom: 4%;
+  }
+  .virus-section p{
+      color: black;
+      margin-bottom: -4px;
+      
+  }
+
+  .virus-section ol{
+   color:white;    
+}
+  .underline{
+      font-size: 3%;
+      color:white;
+      text-transform: capitalize;
+      font-size: large;
+  }
+

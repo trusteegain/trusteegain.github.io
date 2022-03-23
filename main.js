@@ -88,3 +88,15 @@ function newParagraph8(){
 function hide8(){
    var a =document.getElementById("course-ul8").style.display = "none";
 }
+
+
+function Nucleic(){
+    alert("Nucleic Acids");
+}
+
+function Nucleotide(){
+    alert("it is made up of five(5) nitrogenous base and one phosphate group.");
+}
+function Genomes(){
+    alert("Genetic information of a particular organism.");
+}
