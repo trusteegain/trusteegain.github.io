@@ -43,3 +43,18 @@ for (var i = 0; i < navLinks.length; i++) {
     menuBtn.style.pointerEvents = "auto";
   });
 }
+
+
+ 
+
+function altpathway(){
+  alert ('activate C3 directly by hydrolysis, in the presence of Mg2+, plasma protein and serum factor B and D etc.');
+}
+
+function classi(){
+  alert ("This involve the activation of the C1. Which is activated by antibody and antigen complex. A specific antibody must first bind to the pathogen to form an antigen-antibody complex.")
+}
+
+function mannose(){
+  alert ('this pathways is similar to classical pathways but it is triggered by the mannose binding lectin protein.')
+}
