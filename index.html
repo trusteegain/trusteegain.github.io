@@ -1,229 +1,242 @@
 <!DOCTYPE html>
-<!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="UTF-8">
-    <title> </title>
-    <link rel="stylesheet" href="style.css">
-    <!-- Fontawesome CDN Link -->
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   </head>
-<body>
-  <!-- Move to up button -->
-  <div class="scroll-button">
-    <a href="#home"><i class="fa fa-arrow-up"></i></a>
-  </div>
-  <!-- navgaition menu -->
-  <nav>
-    <div class="navbar">
-      <div class="logo"><a href="#">Trusteegain</a></div>
-      <ul class="menu">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <div class="media-icons1">
-            <a href="#"><i class="fa fa-facebook-f"></i></a>
-            <a href="https://wa.link/frdzys"><i class="fa fa-whatsapp"></i></a>
-            <a href="#"><i class="fa fa-instagram"></i></a>
-          </div>
-          <div class="cancel-btn">
-            <i class="fa fa-times"></i>
-          </div>
-      </ul>
-      <div class="media-icons">
-        <a href="#"><i class="fa fa-facebook-f"></i></a>
-        <a href="https://wa.link/frdzys"><i class="fa fa-whatsapp"></i></a>
-        <a href="#"><i class="fa fa-instagram"></i></a>
-      </div>
-    </div>
-    <div class="menu-btn">
-      <i class="fa fa-bars"></i>
-    </div>
-  </nav>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- Home Section Start -->
- <section class="home" id="home">
-   <div class="home-content">
-     <div class="text-content">
-       <div class="text-one">Hello,</div>
-       <div class="text-two">I'm Dimkpa Prince</div>
-       <div class="typing-text">
-       <span class="one">Microbiologist & Web developer.</span>
-          
-       <div class="text-four ">From Rivers state</div>
-     </div>
-     <div class="button">
-       <a href="https://wa.link/frdzys">
-       <button>Hire Me</button>
-       </a>
-     </div>
-   </div>
- </section>
- 
-    
- <!-- My Services Section Start -->
- <section class="services" id="services">
-  <div class="content">
-    <div class="title"><span>My Services</span></div>
-    <div class="boxes">
-      <div class="box">
-        <div class="icon">
-          <i class="fa fa-desktop"></i>
-      </div>
-      <div class="topic">BIOMETRY AND RESEARCH METHOD</div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
-    </div>
-      <div class="box">
-        <div class="icon">
-          <i class="fas fa-paint-brush"></i>
-      </div>
-      <div class="topic">Biotechnology & rDNA</div>
- <p>note will be available very soon, just have patient with me and study the handout carefully</p>
-    <a href="biologysociety.pdf">download pdf here</a>
-    <p>Take a quiz here  <a href="https://quizzory.in/id/627f40406aa11b6aa93e3640">click here</a></p>
-    </div>
-      <div class="box">
-        <div class="icon">
-          <i class="fa fa-chart-line"></i>
-      </div>
-      <div class="topic">Digital Marketing</div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
-    </div>
-      <div class="box">
-        <div class="icon">
-          <i class="fa fa-android"></i>
-      </div>
-      <div class="topic">Icon Design</div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
-    </div>
-      <div class="box">
-        <div class="icon">
-          <i class="fa fa-camera-retro"></i>
-      </div>
-    
-      <div class="topic">Immunology</div>
-      <p>Which is the study of the immune system. 
-      </br> The immune system is basically classify into two, which is the 
-      -innate/nonspecific and adaptive/ specific immune system.
-       <a href="immunology.html">read more</a>
-      </p>
-    </div>
+  <title>myblog</title>
   
-      <div class="box">
-        <div class="icon">
-          <i class="fa fa-tablet-alt"></i>
-      </div>
-      <div class="topic">Apps Devlopment</div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  
+ 
+</head>
+
+<body>
+  
+  <div id="header">
+    <div class="container">
+          <nav>
+            <img src="images/logo.png" class="logo">
+            
+            <ul id="sidemenu">
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+              
+                <i class="fa fa-times" onclick="closemenu()"></i>
+
+            </ul>
+            <i class="fa fa-bars" onclick="openmenu()"></i>
+
+          </nav>
+          
+         <div class="header-text">
+           <p>UI/UX Designer</p>
+           <h1>Hi, I'm <span>Kini</span><br>Prince, <br>From Nigeria</h1>
+         </div>
     </div>
   </div>
+  
+  
+  <!-End of the header section-->
+  
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/user.png">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>HTML stands for Hypertext Markup Language, and it is the most widely used language to write Web Pages.
+
+Hypertext refers to the way in which Web pages (HTML documents) are linked together. Thus, the link available on a webpage is called Hypertext.
+
+As its name suggests, HTML is a Markup Language which means you use HTML to simply "mark-up" a text document with tags that tell a Web browser how to structure it to display.
+
+Originally, HTML was developed with the intent of defining the structure of documents like headings, paragraphs, lists, and so forth to facilitate the sharing of scientific information between researchers.
+
+Now, HTML is being widely used to format web pages with the help of different tags available in HTML language</p>
+
+<div class="tab-title">
+          <p class="tab-links active-links"   onclick="opentab('skills')">Skills</p>
+          <p class="tab-links"  onclick="opentab('experience')">Experience</p>
+          <p class="tab-links"  onclick="opentab('education')">Education</p>
+</div>
+<div class="tab-content active-tabs" id="skills">
+  <ul>
+    <li><span>UI/UX</span><br> Designing web & App interface</li>
+    <li><span>Web development</span><br>Building a well responsive and interacting website</li>
+    <li><span>Graphics Design</span><br>Bring your imagination into reality.</li>
+  </ul>
+  
+</div>
+
+<div class="tab-content" id="experience">
+  <ul>
+    <li><span>2021 - current</span><br> UI/UX designer at Cplanet.</li>
+    <li><span>2015- 2021</span><br>Building a well responsive and interacting website</li>
+    <li><span>Graphics Design</span><br>Bring your imagination into reality.</li>
+  </ul>
+  
+</div>
+
+<div class="tab-content" id="education">
+  <ul>
+    <li><span>UI/UX</span><br> Designing web & App interface</li>
+    <li><span>Web development</span><br>Building a well responsive and interacting website</li>
+    <li><span>Graphics Design</span><br>Bring your imagination into reality.</li>
+  </ul>
+  
+</div>
+        </div>
+      </div>
+    </div>
   </div>
-</section>
+  
+  
+  <!---------END OF ABOUT SESSION-------->
+  
+  
+  <div id="services">
+    <div class="container-services">
+      <h1 class="sub-title">My Services</h1>
+      
+      <div class="services-list">
+        
+        <div>
+          
+          <i class="fa fa-code"></i>
+
+          <h2>Web Designs</h2>
+          <p>Web Designers create and build websites and web pages by combining any number of visual design elements including text, photos, graphics, animations and videos. A Web Designer could create a brand new website or simply make updates to <>the design and layout of existing pyyopaac></you>ages.</p>
+          <a href="#">Learn more</a>
+        </div>
+        
+          <div>
+            <i class="fa fa-bandcamp"></i>
+
+            
+          <h2>UI/UX Designs</h2>
+          <p>Web Designers create and build websites and web pages by combining any number of visual design elements including text, photos, graphics, animations and videos. A Web Designer could create a brand new website or simply make updates to the design and layout of existing pages.</p>
+          <a href="#">Learn more</a>
+        </div>
+        
+          <div>
+            <i class="fa fa-forumbee"></i>
+
+          <h2>Graphics Designs</h2>
+          <p>Web Designers create and build websites and web pages by combining any number of visual design elements including text, photos, graphics, animations and videos. A Web Designer could create a brand new website or simply make updates to the design and layout of existing pages.</p>
+          <a href="#">Learn more</a>
+        </div>
+        
+        
+      </div>
+      
+    </div>
+    
+  </div>
+  
+  
+  
+  
+  <!--—------End of the Services -------------->
  
-<!-- My Skill Section Start -->
-<!-- Section Tag and Other Div will same where we need to put same CSS -->
-<section class="skills" id="skills">
- <div class="content">
-   <div class="title"><span>My Skills</span></div>
-   <div class="skills-details">
-     <div class="text">
-       <div class="topic">Skills Reflects Our Knowledge</div>
-       <p>The first week of the semester, I gain the knowledge about step-by-step process of the way research is conveyed. I was advised by the lecturer to keep a dairy for the record. I had brief knowledge about the methodology that can be used in the research project. Learning how to develop an idea about the accounting issues in an organization was the main goal in the first week. 
-      </p> 
-       <div class="experience">
-         <div class="num">5</div>
-         <div class="exp">Years Of <br> Experience</div>
+ <div id="portfolio">
+   <div class="container-services">
+     <div class="sub-title">
+       <h2>My Work</h2>
+       <div class="work-list">
+         <div class="work">
+           <img src="images/work-1.png">
+           <div class="layout">
+             <h3>Social Media App</h3>
+             <p>The App can be downloaded on play store through the link down below</p>
+             <a href="#"><i class="fa fa-external-link"></i>
+              </a>
+           </div>
+         </div>
+           <div class="work">
+           <img src="images/work-2.png">
+            <div class="layout">
+             <h3>Social Media App</h3>
+             <p>The App can be downloaded on play store through the link down below</p>
+             <a href="#"><i class="fa fa-external-link"></i>
+              </a>
+           </div>
+         </div>
+          <div class="work">
+           <img src="images/work-3.png">
+            <div class="layout">
+             <h3>Social Media App</h3>
+             <p>The App can be downloaded on play store through the link down below</p>
+             <a href="#"><i class="fa fa-external-link"></i>
+              </a>
+           </div>
+         </div>
        </div>
-     </div>
-     <div class="boxes">
-       <div class="box">
-         <div class="topic">HTML</div>
-         <div class="per">70%</div>
-       </div>
-       <div class="box">
-         <div class="topic">CSS</div>
-         <div class="per">50%</div>
-       </div>
-       <div class="box">
-         <div class="topic">JavScript</div>
-         <div class="per">30%</div>
-       </div>
-       <div class="box">
-         <div class="topic">MICROSCOPE</div>
-         <div class="per">75%</div>
-       </div>
-       <div class="box">
-        <div class="topic">BACTERIA AND CHRONIC INFECTION</div>
-        <div class="per">50%</div>
-      </div>
-      <div class="box">
-        <div class="topic">INTRO. GENETICS AND EVOLUTION</div>
-        <div class="per">45%</div>
-      </div>
+       
+       <a href="#" class="btn">See More</a>
+       
      </div>
    </div>
  </div>
-</section>
-
  
-<!-- About Section Start -->
-<section class="about" id="about">
-  <div class="content">
-    <div class="title"><span>About Me</span></div>
-  <div class="about-details">
-    <div class="left">
-      <img src="image/about.jpg" alt="">
-    </div>
-    <div class="right">
-      <div class="topic">Designing Is My Passion</div>
-       <p>I am studying at the best school in my city. I am presently in class 10th. I feel happy to be a part of this great school with the good friends, helpful and loving teacher and sound school administration. I have extraordinary skills in some subjects whereas I am very weak in the few.
-
-        My Strengths
-        In compare to studies, I am good at sports. so I am the captain of my class football team. I am the best football player at my school. Besides this, I am a fast runner also and I love athletics. I am in expert swimming.
-        
-        The advice of my parents had a keen effect on my habits. I believe to speak the truth and try my best not to lie. My parents always advised me that if I commit a mistake, I should admit it. I try my best to do so. I know how to remain happy in every condition. Because I believe that: “Happiness is not out there; it’s in you.”
-        
-        I am a very adventurous person too and like to take the risk. I like to do a creative thing besides doing old stuff again and again. Learning new things is one thing which I always enjoy. I always update myself with the news.
-        
-        Along with this, I fond of reading a few children magazines in which different motivational stories are there. They taught me a high moral lesson. I am a very confident person and know how to talk. I always try to speak to every person according to his requirement so I understand people.</p>
-      <div class="button">
-        <button>Download CV</button>
-      </div>
-    </div>
-  </div>
-  </div>
-</section>
-
-<!-- Contact Me section Start -->
-<section class="contact" id="contact">
-  <div class="content">
-    <div class="title"><span>Contact Me</span></div>
-    <div class="text">
-      <div class="topic">Have Any Project?</div>
-       <div class="button">
-         <p>if you any assignment or any project works or any serminal work, i do those things.
-           sure plug for hostel booking, school fees payment, course registration and many more school.
-            Advertising of products. 
-         </p>
-        <a href="https://surveyheart.com/form/627b361f4a8aaf4922a077f0">
-        <button>Let's Chat</button>
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Footer Section Start -->
-<footer>
-  <div class="text">
-    <span>Created By <a href="#">trusteegain</a> | &#169; 2021 All Rights Reserved</span>
-  </div>
-</footer>
-
-  <script src="script.js"></script>
+ 
+ <!-------END OF PORTFOLIO------->
+ 
+ 
+ 
+ <div id="contact">
+   <div class="container">
+     <div class="row">
+       <div class="contact-left">
+         <h1 class="sub-title">Contact Me</h1>
+         <p><i class="fa fa-paper-plane"></i> 
+ trusteegain@gmail.com</p>
+         <p><i class="fa fa-phone"></i>
+ +234- 7014704943</p>
+         <div class="social-icons">
+           <a href="https://m.facebook.com/profile.php?id=100078770061132"><i class="fa fa-facebook-square"></i></a>
+           <a href="https://www.instagram.com/dprincekini/"><i class="fa fa-instagram"></i></a>
+           <a href=""><i class="fa fa-whatsapp"></i></a>
+           <a href="https://mobile.twitter.com/trusteegain"><i class="fa fa-twitter"></i></a>
+         </div>
+         <a href="#" class="cv">DOWNLOAD CV</a>
+       </div>
+       
+       <div class="contact-right">
+         
+         <form onsubmit="sendEmail(); reset(); return false">
+           <input type="text" name="Name" id="name" placeholder="Your Name" required>
+           <input type="email" id="email" name="email" placeholder="Your Email" required>
+           <textarea name="message" id="message" rows="6" placeholder="Your message."></textarea>
+           <button type="submit" class="cv" id="btn" onclick="callMe()"> Submit</button>
+         </form>
+       </div>
+       
+     </div>
+     
+   </div>
+ </div>
+ 
+ 
+ 
+ <footer>
+   <p>
+     copyright, welcome to my world
+   </p>
+ </footer>
+  <!-- Project -->
+  <script src="main.js"></script>
+  
+  
 </body>
 </html>
